@@ -299,41 +299,5 @@ img{
     }   
 }
 
-/* Media Queries */
-@media (max-width: 1030px) {
-    .container {
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        align-items: center;
-        width: 100vw;
-        padding: 0;
-        margin: 0;
-        font-size: x-large;
-    }
-
-    .item1, .item2 {
-        width: 80%;
-       display: flex;
-       justify-content: center;
-        flex-direction: column;
-        align-items: center;
-        align-content: center;
-        margin: 0;
-        padding: 0;
-    }   
-
-    div span{
-        display: flex;
-        justify-content: space-between;
-        font-size: larger;
-       
-    }
-
-    img{
-        width: 10px;
-    }
-}
-
 
 
